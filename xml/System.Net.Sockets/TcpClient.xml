@@ -374,7 +374,7 @@
 ## Remarks  
  <xref:System.Net.Sockets.TcpClient.Available%2A> is a way to determine whether data is queued for reading. If data is available, call <xref:System.Net.Sockets.NetworkStream.Read%2A> to get the data. The available data is the total amount of data queued in the network buffer for reading. If no data is queued in the network buffer, <xref:System.Net.Sockets.TcpClient.Available%2A> returns 0.  
   
- If the remote host shuts down or closes the connection, <xref:System.Net.Sockets.TcpClient.Available%2A> may throw a <xref:System.Net.Sockets.SocketException>. If you receive a <xref:System.Net.Sockets.SocketException>, use <xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=nameWithType> to obtain the specific error code. After you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in the MSDN library at [http://msdn.microsoft.com/library](http://msdn.microsoft.com/library) for a detailed description of the error.  
+ If the remote host shuts down or closes the connection, <xref:System.Net.Sockets.TcpClient.Available%2A> may throw a <xref:System.Net.Sockets.SocketException>. If you receive a <xref:System.Net.Sockets.SocketException>, use <xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=nameWithType> to obtain the specific error code. After you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in the MSDN library at [https://msdn.microsoft.com/library](https://msdn.microsoft.com/library) for a detailed description of the error.  
   
    
   
@@ -863,7 +863,7 @@
  This method is typically used immediately after a call to the <xref:System.Net.Dns.BeginGetHostAddresses%2A> method, which can return multiple IP addresses for a single host. Call the <xref:System.Net.Sockets.TcpClient.Connect%2A> method to establish a synchronous remote host connection to the host specified by the array of <xref:System.Net.IPAddress> elements and the port number. The <xref:System.Net.Sockets.TcpClient.Connect%2A> method will block until it either connects or fails. After connecting with the remote host, use the <xref:System.Net.Sockets.TcpClient.GetStream%2A> method to obtain the underlying <xref:System.Net.Sockets.NetworkStream>. Use this <xref:System.Net.Sockets.NetworkStream> to send and receive data.  
   
 > [!NOTE]
->  If you receive a <xref:System.Net.Sockets.SocketException>, use <xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=nameWithType> to obtain the specific error code. After you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in the MSDN library at [http://msdn.microsoft.com/library](http://msdn.microsoft.com/library) for a detailed description of the error.  
+>  If you receive a <xref:System.Net.Sockets.SocketException>, use <xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=nameWithType> to obtain the specific error code. After you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in the MSDN library at [https://msdn.microsoft.com/library](https://msdn.microsoft.com/library) for a detailed description of the error.  
   
 > [!NOTE]
 >  This member outputs trace information when you enable network tracing in your application. For more information, see [Network Tracing in the .NET Framework](~/docs/framework/network-programming/network-tracing.md).  
@@ -1068,7 +1068,7 @@
  This method is typically used immediately after a call to the <xref:System.Net.Dns.BeginGetHostAddresses%2A> method, which can return multiple IP addresses for a single host. Call this method to establish a synchronous remote host connection to the host specified by the array of <xref:System.Net.IPAddress> elements and the port number as an asynchronous operation. After connecting with the remote host, use the <xref:System.Net.Sockets.TcpClient.GetStream%2A> method to obtain the underlying <xref:System.Net.Sockets.NetworkStream>. Use this <xref:System.Net.Sockets.NetworkStream> to send and receive data.  
   
 > [!NOTE]
->  If you receive a <xref:System.Net.Sockets.SocketException>, use <xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=nameWithType> to obtain the specific error code. After you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in the MSDN library at [http://msdn.microsoft.com/library](http://msdn.microsoft.com/library) for a detailed description of the error.  
+>  If you receive a <xref:System.Net.Sockets.SocketException>, use <xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=nameWithType> to obtain the specific error code. After you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in the MSDN library at [https://msdn.microsoft.com/library](https://msdn.microsoft.com/library) for a detailed description of the error.  
   
 > [!NOTE]
 >  This member outputs trace information when you enable network tracing in your application. For more information, see [Network Tracing in the .NET Framework](~/docs/framework/network-programming/network-tracing.md).  
@@ -1278,7 +1278,7 @@
           <para>
             <see langword="Dispose" /> can be called multiple times by other objects. When overriding <see langword="Dispose(Boolean)" />, be careful not to reference objects that have been previously disposed of in an earlier call to <see langword="Dispose" />. For more information about how to implement <see langword="Dispose(Boolean)" />, see [Implementing a Dispose Method](~/docs/standard/garbage-collection/implementing-dispose.md).  
   
- For more information about <see langword="Dispose" /> and <see cref="M:System.Object.Finalize" />, see [Cleaning Up Unmanaged Resources](~/docs/standard/garbage-collection/unmanaged.md) and [Overriding the Finalize Method](http://msdn.microsoft.com/library/8026cb68-fe93-43fc-96c1-c09ad7d64cd3).</para>
+ For more information about <see langword="Dispose" /> and <see cref="M:System.Object.Finalize" />, see [Cleaning Up Unmanaged Resources](~/docs/standard/garbage-collection/unmanaged.md) and [Overriding the Finalize Method](https://msdn.microsoft.com/library/8026cb68-fe93-43fc-96c1-c09ad7d64cd3).</para>
         </block>
       </Docs>
     </Member>
@@ -1319,7 +1319,7 @@
  This method blocks until the operation is complete. To perform this operation synchronously, use a <xref:System.Net.Sockets.TcpClient.Connect%2A> method.  
   
 > [!NOTE]
->  If you receive a <xref:System.Net.Sockets.SocketException>, use <xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=nameWithType> to obtain the specific error code. After you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in the MSDN library at [http://msdn.microsoft.com/library](http://msdn.microsoft.com/library) for a detailed description of the error.  
+>  If you receive a <xref:System.Net.Sockets.SocketException>, use <xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=nameWithType> to obtain the specific error code. After you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in the MSDN library at [https://msdn.microsoft.com/library](https://msdn.microsoft.com/library) for a detailed description of the error.  
   
    
   
@@ -1425,7 +1425,7 @@
   
  The <xref:System.Net.Sockets.TcpClient> class finalizer closes the TCP connection and releases all managed resources associated with the <xref:System.Net.Sockets.TcpClient>. These resources include the underlying <xref:System.Net.Sockets.Socket> used for connecting with the remote host, and the <xref:System.Net.Sockets.NetworkStream> used to send and receive data. The finalizer does not release any unmanaged resources.  
   
- For more information, see [Finalize Methods and Destructors](http://msdn.microsoft.com/library/fd376774-1643-499b-869e-9546a3aeea70), [Cleaning Up Unmanaged Resources](~/docs/standard/garbage-collection/unmanaged.md), and [Overriding the Finalize Method](http://msdn.microsoft.com/library/8026cb68-fe93-43fc-96c1-c09ad7d64cd3).  
+ For more information, see [Finalize Methods and Destructors](https://msdn.microsoft.com/library/fd376774-1643-499b-869e-9546a3aeea70), [Cleaning Up Unmanaged Resources](~/docs/standard/garbage-collection/unmanaged.md), and [Overriding the Finalize Method](https://msdn.microsoft.com/library/8026cb68-fe93-43fc-96c1-c09ad7d64cd3).  
   
  ]]></format>
         </remarks>

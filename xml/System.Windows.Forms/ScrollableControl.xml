@@ -904,7 +904,7 @@
   
  You can use the <xref:System.Windows.Forms.ScrollEventArgs.ScrollOrientation%2A> property in your event handler to determine the scroll bar orientation for the <xref:System.Windows.Forms.ScrollableControl.Scroll> event.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   

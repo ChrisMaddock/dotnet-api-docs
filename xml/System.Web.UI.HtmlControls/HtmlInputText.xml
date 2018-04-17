@@ -401,7 +401,7 @@
 > [!NOTE]
 >  The control must have view state enabled for the <xref:System.Web.UI.HtmlControls.HtmlInputText.ServerChange> event to work correctly.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   

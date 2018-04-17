@@ -64,7 +64,7 @@
  Windows Forms controls use ambient properties so child controls can appear like their surrounding environment. An *ambient property* is a control property that, if not set, is retrieved from the parent control. If the control does not have a <xref:System.Windows.Forms.Control.Parent%2A>, and the property is not set, the control attempts to determine the value of the ambient property through the <xref:System.Windows.Forms.Control.Site%2A> property. If the control is not sited, if the site does not support ambient properties, or if the property is not set on the <xref:System.Windows.Forms.AmbientProperties>, the control uses its own default values. Typically, an ambient property represents a characteristic of a control, such as <xref:System.Windows.Forms.Control.BackColor%2A>, that is communicated to a child control. For example, a <xref:System.Windows.Forms.Button> will have the same <xref:System.Windows.Forms.Control.BackColor%2A> as its parent <xref:System.Windows.Forms.Form> by default. Ambient properties provided by the <xref:System.Windows.Forms.Control> class include: <xref:System.Windows.Forms.Control.Cursor%2A>, <xref:System.Windows.Forms.Control.Font%2A>, <xref:System.Windows.Forms.Control.BackColor%2A>, <xref:System.Windows.Forms.Control.ForeColor%2A>, and <xref:System.Windows.Forms.Control.RightToLeft%2A>.  
   
 > [!NOTE]
->  To make your Windows Forms application support visual styles, be sure to set the <xref:System.Windows.Forms.FlatStyle> property to `System` and include a manifest with your executable. A manifest is an XML file that is included either as a resource within your application executable or as a separate file that resides in the same directory as the executable file. For an example of a manifest, see the Example section of the <xref:System.Windows.Forms.FlatStyle> enumeration. For more information about using visual styles, see [Visual Styles](http://msdn.microsoft.com/library/windows/desktop/bb773187.aspx).  
+>  To make your Windows Forms application support visual styles, be sure to set the <xref:System.Windows.Forms.FlatStyle> property to `System` and include a manifest with your executable. A manifest is an XML file that is included either as a resource within your application executable or as a separate file that resides in the same directory as the executable file. For an example of a manifest, see the Example section of the <xref:System.Windows.Forms.FlatStyle> enumeration. For more information about using visual styles, see [Visual Styles](https://msdn.microsoft.com/library/windows/desktop/bb773187.aspx).  
   
  Windows Forms has accessibility support built in, and provides information about your application that enables it to work with accessibility client applications such as screen enlarger and reviewer utilities, voice input utilities, on-screen keyboards, alternative input devices, and keyboard enhancement utilities. Sometimes you will want to provide additional information to accessibility client applications. There are two ways of providing this additional information. You can set the <xref:System.Windows.Forms.Control.AccessibleName%2A>, <xref:System.Windows.Forms.Control.AccessibleDescription%2A>, <xref:System.Windows.Forms.Control.AccessibleDefaultActionDescription%2A>, and <xref:System.Windows.Forms.Control.AccessibleRole%2A> property values, which will be reported to accessibility client applications. This method is typically used to provide limited accessibility information for existing controls. Alternatively, you can write your own class deriving from the <xref:System.Windows.Forms.AccessibleObject> or <xref:System.Windows.Forms.Control.ControlAccessibleObject> classes, providing as much accessibility information as needed.  
   
@@ -74,9 +74,9 @@
 > [!NOTE]
 >  Do not add data bindings for a <xref:System.Windows.Forms.Control> in its constructor. Doing so will cause errors in code generation and can cause unwanted behavior.  
   
- The majority of the controls in the <xref:System.Windows.Forms> namespace use the underlying Windows common control as a base to build on. For more information about the Windows common controls, see [General Control Reference](http://msdn.microsoft.com/library/windows/desktop/bb775497.aspx).  
+ The majority of the controls in the <xref:System.Windows.Forms> namespace use the underlying Windows common control as a base to build on. For more information about the Windows common controls, see [General Control Reference](https://msdn.microsoft.com/library/windows/desktop/bb775497.aspx).  
   
- To identify Windows Forms controls from a separate process, use a standard `SendMessage` call to pass the WM_GETCONTROLNAME message. WM_GETCONTROLNAME is independent of the language and Windows hierarchy. For more information, see the "Recommended Solution for Windows Forms" topic in[Automating Windows Forms](http://msdn.microsoft.com/library/ms996405.aspx).  
+ To identify Windows Forms controls from a separate process, use a standard `SendMessage` call to pass the WM_GETCONTROLNAME message. WM_GETCONTROLNAME is independent of the language and Windows hierarchy. For more information, see the "Recommended Solution for Windows Forms" topic in[Automating Windows Forms](https://msdn.microsoft.com/library/ms996405.aspx).  
   
  Use the <xref:System.Windows.Forms.Control.InvokeRequired%2A> property to synchronize access to the control from multiple threads. For more information about multithreaded Windows Forms controls, see [How to: Make Thread-Safe Calls to Windows Forms Controls](~/docs/framework/winforms/controls/how-to-make-thread-safe-calls-to-windows-forms-controls.md)  
   
@@ -394,7 +394,7 @@
 > [!NOTE]
 >  To get or set the <xref:System.Windows.Forms.Control.AccessibilityObject%2A> property, you must add a reference to the `Accessibility` assembly installed with the[!INCLUDE[dnprdnshort](~/includes/dnprdnshort-md.md)].  
   
- For more information about accessible objects, see [Active Accessibility](http://msdn.microsoft.com/library/windows/desktop/dd373592.aspx).  
+ For more information about accessible objects, see [Active Accessibility](https://msdn.microsoft.com/library/windows/desktop/dd373592.aspx).  
   
  ]]></format>
         </remarks>
@@ -448,7 +448,7 @@
   
 -   A label or a text box control that shows "Printer" has no default action, but would have a value of "Printer."  
   
- For more information about properties of accessible objects, see [Content of Descriptive Properties](http://msdn.microsoft.com/library/windows/desktop/dd318025.aspx).  
+ For more information about properties of accessible objects, see [Content of Descriptive Properties](https://msdn.microsoft.com/library/windows/desktop/dd318025.aspx).  
   
  ]]></format>
         </remarks>
@@ -491,7 +491,7 @@
   
  The <xref:System.Windows.Forms.Control.AccessibleDescription%2A> property is needed if the description is not obvious, or if it is redundant based on the object's <xref:System.Windows.Forms.Control.AccessibleName%2A>, <xref:System.Windows.Forms.Control.AccessibleRole%2A>, <xref:System.Windows.Forms.AccessibleObject.State%2A>, and <xref:System.Windows.Forms.AccessibleObject.Value%2A> properties. For example, a button with "OK" would not need additional information, but a button that shows a picture of a cactus would. The <xref:System.Windows.Forms.Control.AccessibleName%2A>, and <xref:System.Windows.Forms.Control.AccessibleRole%2A> (and perhaps <xref:System.Windows.Forms.AccessibleObject.Help%2A>) properties for the cactus button would describe its purpose, but the <xref:System.Windows.Forms.Control.AccessibleDescription%2A> property would convey information that is less tangible, such as "A button that shows a picture of a cactus."  
   
- For more information about properties of accessible objects, see [Content of Descriptive Properties](http://msdn.microsoft.com/library/windows/desktop/dd318025.aspx).  
+ For more information about properties of accessible objects, see [Content of Descriptive Properties](https://msdn.microsoft.com/library/windows/desktop/dd318025.aspx).  
   
    
   
@@ -541,7 +541,7 @@
 ## Remarks  
  The <xref:System.Windows.Forms.Control.AccessibleName%2A> property is a label that briefly describes and identifies the object within its container, such as the text in a <xref:System.Windows.Forms.Button>, the name of a <xref:System.Windows.Forms.MenuItem>, or a label displayed next to a <xref:System.Windows.Forms.TextBox> control.  
   
- For more information about properties of accessible objects, see the "[Content of Descriptive Properties](http://msdn.microsoft.com/library/windows/desktop/dd318025.aspx).  
+ For more information about properties of accessible objects, see the "[Content of Descriptive Properties](https://msdn.microsoft.com/library/windows/desktop/dd318025.aspx).  
   
    
   
@@ -588,7 +588,7 @@
 ## Remarks  
  The <xref:System.Windows.Forms.Control.AccessibleRole%2A> property describes what kind of user interface element an object is. If the control's role cannot be determined, the <xref:System.Windows.Forms.Control.AccessibleRole%2A> property is set to `Default`.  
   
- For more information about properties of accessible objects, see [Content of Descriptive Properties](http://msdn.microsoft.com/library/windows/desktop/dd318025.aspx).  
+ For more information about properties of accessible objects, see [Content of Descriptive Properties](https://msdn.microsoft.com/library/windows/desktop/dd318025.aspx).  
   
  ]]></format>
         </remarks>
@@ -3004,7 +3004,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The <xref:System.Windows.Forms.Control.CreateParams%2A> property should not be overridden and used to adjust the properties of your derived control. Properties such as the <xref:System.Windows.Forms.CreateParams.Caption%2A?displayProperty=nameWithType>, <xref:System.Windows.Forms.CreateParams.Width%2A?displayProperty=nameWithType>, and <xref:System.Windows.Forms.CreateParams.Height%2A?displayProperty=nameWithType> should be set by the corresponding properties in your control such as <xref:System.Windows.Forms.Control.Text%2A?displayProperty=nameWithType>, <xref:System.Windows.Forms.Control.Width%2A?displayProperty=nameWithType> and <xref:System.Windows.Forms.Control.Height%2A?displayProperty=nameWithType>. The <xref:System.Windows.Forms.CreateParams> should only be extended when you are wrapping a standard Windows control class or to set styles not provided by the Windows Forms namespace. For more information about creating control parameters, see the `CreateWindow` and `CreateWindowEx` functions and the [CREATESTRUCT](http://msdn.microsoft.com/library/windows/desktop/ms632603.aspx)structure documentation.  
+ The <xref:System.Windows.Forms.Control.CreateParams%2A> property should not be overridden and used to adjust the properties of your derived control. Properties such as the <xref:System.Windows.Forms.CreateParams.Caption%2A?displayProperty=nameWithType>, <xref:System.Windows.Forms.CreateParams.Width%2A?displayProperty=nameWithType>, and <xref:System.Windows.Forms.CreateParams.Height%2A?displayProperty=nameWithType> should be set by the corresponding properties in your control such as <xref:System.Windows.Forms.Control.Text%2A?displayProperty=nameWithType>, <xref:System.Windows.Forms.Control.Width%2A?displayProperty=nameWithType> and <xref:System.Windows.Forms.Control.Height%2A?displayProperty=nameWithType>. The <xref:System.Windows.Forms.CreateParams> should only be extended when you are wrapping a standard Windows control class or to set styles not provided by the Windows Forms namespace. For more information about creating control parameters, see the `CreateWindow` and `CreateWindowEx` functions and the [CREATESTRUCT](https://msdn.microsoft.com/library/windows/desktop/ms632603.aspx)structure documentation.  
   
    
   
@@ -3686,7 +3686,7 @@
           <para>
             <see langword="Dispose" /> can be called multiple times by other objects. When overriding <see langword="Dispose(Boolean)" /> be careful not to reference objects that have been previously disposed of in an earlier call to <see langword="Dispose" />. For more information about how to implement <see langword="Dispose(Boolean)" />, see [Implementing a Dispose Method](~/docs/standard/garbage-collection/implementing-dispose.md).  
   
- For more information about <see langword="Dispose" /> and <see cref="M:System.Object.Finalize" />, see [Cleaning Up Unmanaged Resources](~/docs/standard/garbage-collection/unmanaged.md) and [Overriding the Finalize Method](http://msdn.microsoft.com/library/8026cb68-fe93-43fc-96c1-c09ad7d64cd3).</para>
+ For more information about <see langword="Dispose" /> and <see cref="M:System.Object.Finalize" />, see [Cleaning Up Unmanaged Resources](~/docs/standard/garbage-collection/unmanaged.md) and [Overriding the Finalize Method](https://msdn.microsoft.com/library/8026cb68-fe93-43fc-96c1-c09ad7d64cd3).</para>
         </block>
       </Docs>
     </Member>
@@ -7126,7 +7126,7 @@ MyControl.Font = New Font(MyControl.Font, _
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- A mirrored control displays both layout and text from right to left. For more information, see [How to: Create Mirrored Windows Forms and Controls](http://msdn.microsoft.com/library/7c5c4ecc-9bfb-4508-8383-753e306719b1).  
+ A mirrored control displays both layout and text from right to left. For more information, see [How to: Create Mirrored Windows Forms and Controls](https://msdn.microsoft.com/library/7c5c4ecc-9bfb-4508-8383-753e306719b1).  
   
  ]]></format>
         </remarks>

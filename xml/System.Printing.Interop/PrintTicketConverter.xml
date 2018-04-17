@@ -56,7 +56,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information on the DEVMODE structure, see [DEVMODE](http://msdn.microsoft.com/library/windows/desktop/dd183565).  
+ For more information on the DEVMODE structure, see [DEVMODE](https://msdn.microsoft.com/library/windows/desktop/dd183565).  
   
  ]]></format>
         </remarks>
@@ -101,7 +101,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information on the DEVMODE structure, see [DEVMODE](http://msdn.microsoft.com/library/windows/desktop/dd183565).  
+ For more information on the DEVMODE structure, see [DEVMODE](https://msdn.microsoft.com/library/windows/desktop/dd183565).  
   
  The scope of the returned <xref:System.Printing.PrintTicket> is the entire print job.  
   
@@ -144,7 +144,7 @@
 ## Remarks  
  This method does not validate the <xref:System.Printing.PrintTicket>. To validate it, use <xref:System.Printing.PrintQueue.MergeAndValidatePrintTicket%2A>.  
   
- For more information on the DEVMODE structure, see [DEVMODE](http://msdn.microsoft.com/library/windows/desktop/dd183565).  
+ For more information on the DEVMODE structure, see [DEVMODE](https://msdn.microsoft.com/library/windows/desktop/dd183565).  
   
  ]]></format>
         </remarks>
@@ -194,7 +194,7 @@
   
  This method does not validate the <xref:System.Printing.PrintTicket>. To validate it, use <xref:System.Printing.PrintQueue.MergeAndValidatePrintTicket%2A>.  
   
- For more information on the DEVMODE structure, see [DEVMODE](http://msdn.microsoft.com/library/windows/desktop/dd183565).  
+ For more information on the DEVMODE structure, see [DEVMODE](https://msdn.microsoft.com/library/windows/desktop/dd183565).  
   
  ]]></format>
         </remarks>
@@ -235,7 +235,7 @@
 ## Remarks  
  This method does not validate the <xref:System.Printing.PrintTicket>. To validate it, use <xref:System.Printing.PrintQueue.MergeAndValidatePrintTicket%2A>.  
   
- For more information on the DEVMODE structure, see [DEVMODE](http://msdn.microsoft.com/library/windows/desktop/dd183565).  
+ For more information on the DEVMODE structure, see [DEVMODE](https://msdn.microsoft.com/library/windows/desktop/dd183565).  
   
  ]]></format>
         </remarks>

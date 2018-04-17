@@ -9,7 +9,7 @@
   
  ADSI is a programmatic interface for Microsoft Active Directory Domain Services that enables your applications to interact with diverse directories on a network using a single interface. Using ADSI, you can create applications that perform common tasks, such as backing up databases, accessing printers, and administering user accounts.  
   
- It is assumed that you have a general understanding of Active Directory Domain Services before using these classes. For more information on Active Directory Domain Services, see the topics [Introduction to Active Directory Objects](http://go.microsoft.com/fwlink/?LinkID=121193&clcid=0x409) and [Active Directory Technology Backgrounder](http://go.microsoft.com/fwlink/?LinkID=121194&clcid=0x409), as well as the following topics in the MSDN library at [http://msdn.microsoft.com/library](http://msdn.microsoft.com/library):  
+ It is assumed that you have a general understanding of Active Directory Domain Services before using these classes. For more information on Active Directory Domain Services, see the topics [Introduction to Active Directory Objects](http://go.microsoft.com/fwlink/?LinkID=121193&clcid=0x409) and [Active Directory Technology Backgrounder](http://go.microsoft.com/fwlink/?LinkID=121194&clcid=0x409), as well as the following topics in the MSDN library at [https://msdn.microsoft.com/library](https://msdn.microsoft.com/library):  
   
 -   [Using Active Directory Domain Services](http://go.microsoft.com/fwlink/?LinkID=121195&clcid=0x409)  
   

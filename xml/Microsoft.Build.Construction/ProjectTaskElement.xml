@@ -372,7 +372,7 @@
         <ReturnType>System.Collections.Generic.ICollection&lt;Microsoft.Build.Construction.ProjectOutputElement&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets all [Output Element (MSBuild)](http://msdn.microsoft.com/library/34bc7cd1-efd3-4b57-b691-4584eeb6a0e9) children.</summary>
+        <summary>Gets all [Output Element (MSBuild)](https://msdn.microsoft.com/library/34bc7cd1-efd3-4b57-b691-4584eeb6a0e9) children.</summary>
         <value>Returns all Output element children.</value>
         <remarks>To be added.</remarks>
       </Docs>

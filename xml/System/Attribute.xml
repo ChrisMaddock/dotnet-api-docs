@@ -230,7 +230,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
  Use the <xref:System.Attribute.GetCustomAttributes%2A> method if you expect more than one value to be returned, or <xref:System.Reflection.AmbiguousMatchException> will be thrown.  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -290,7 +290,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
  A match is determined in the same way described in the Return Value section of <xref:System.Type.IsAssignableFrom%2A?displayProperty=nameWithType>.  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes on types, methods, and constructors if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes on types, methods, and constructors if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -464,7 +464,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
 ## Remarks  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -525,7 +525,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
 ## Remarks  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes on types, methods, and constructors if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes on types, methods, and constructors if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -709,7 +709,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
 ## Remarks  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -764,7 +764,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
  The return value contains the custom attributes for ancestors of `element`.  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes on methods, constructors, and types if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes on methods, constructors, and types if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -923,7 +923,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
 ## Remarks  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -979,7 +979,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
 ## Remarks  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -1038,7 +1038,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
  The return value contains the custom attributes for ancestors of `element` if `inherit` is `true`.  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes on methods, constructors, and types if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes on methods, constructors, and types if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -1097,7 +1097,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
  The return value contains the custom attributes for ancestors of `element`.  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes on methods, constructors, and types if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes on methods, constructors, and types if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -1378,7 +1378,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
 ## Remarks  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -1438,7 +1438,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
  The return value contains the custom attributes for ancestors of `element` if `inherit` is `true`.  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns security attributes on methods, constructors, and types if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns security attributes on methods, constructors, and types if the attributes are stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -1727,7 +1727,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
 ## Remarks  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns `true` if the assembly has security attributes stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns `true` if the assembly has security attributes stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -1787,7 +1787,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
  The ancestors of `element` are searched for custom attributes.  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns `true` if a type, method, or constructor has security attributes stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns `true` if a type, method, or constructor has security attributes stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -1964,7 +1964,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
 ## Remarks  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns `true` if the assembly has security attributes stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns `true` if the assembly has security attributes stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   
@@ -2025,7 +2025,7 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
 ## Remarks  
   
 > [!NOTE]
->  Starting with the .NET Framework version 2.0, this method returns `true` if a type, method, or constructor has security attributes stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](http://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
+>  Starting with the .NET Framework version 2.0, this method returns `true` if a type, method, or constructor has security attributes stored in the new metadata format. Assemblies compiled with version 2.0 or later use the new format. Dynamic assemblies and assemblies compiled with earlier versions of the .NET Framework use the old XML format. See [Emitting Declarative Security Attributes](https://msdn.microsoft.com/library/9eeddee8-ca89-4440-b84b-fd613f590cd5).  
   
    
   

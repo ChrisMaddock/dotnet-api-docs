@@ -32,7 +32,7 @@
 ## Remarks  
  The <xref:System.Data.EntityKey> objects are immutable; that is, after they are constructed they cannot be modified.  
   
- For more information, see [Working with Entity Keys](http://msdn.microsoft.com/library/fe3f4206-d277-43a1-a72f-4e86fdf12b9f).  
+ For more information, see [Working with Entity Keys](https://msdn.microsoft.com/library/fe3f4206-d277-43a1-a72f-4e86fdf12b9f).  
   
    
   
@@ -517,7 +517,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- <xref:System.Data.EntityKey.OnDeserialized%2A> is used by Object Services when deserializing an <xref:System.Data.EntityKey>. For more information, see [Serializing Objects](http://msdn.microsoft.com/library/06c77f9b-5b2e-4c78-b3e3-8c148ba0ea99).  
+ <xref:System.Data.EntityKey.OnDeserialized%2A> is used by Object Services when deserializing an <xref:System.Data.EntityKey>. For more information, see [Serializing Objects](https://msdn.microsoft.com/library/06c77f9b-5b2e-4c78-b3e3-8c148ba0ea99).  
   
  ]]></format>
         </remarks>
@@ -558,7 +558,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- <xref:System.Data.EntityKey.OnDeserializing%2A> is used by Object Services when deserializing an <xref:System.Data.EntityKey>. For more information, see [Serializing Objects](http://msdn.microsoft.com/library/06c77f9b-5b2e-4c78-b3e3-8c148ba0ea99).  
+ <xref:System.Data.EntityKey.OnDeserializing%2A> is used by Object Services when deserializing an <xref:System.Data.EntityKey>. For more information, see [Serializing Objects](https://msdn.microsoft.com/library/06c77f9b-5b2e-4c78-b3e3-8c148ba0ea99).  
   
  ]]></format>
         </remarks>

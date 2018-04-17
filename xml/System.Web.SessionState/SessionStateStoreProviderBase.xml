@@ -41,7 +41,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  The following code example shows the Web.config file for an ASP.NET application that is configured to use a custom session-state store provider.  
   
@@ -92,7 +92,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -136,7 +136,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -181,7 +181,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -213,7 +213,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -248,7 +248,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -304,7 +304,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -356,7 +356,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -391,7 +391,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -434,7 +434,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -475,7 +475,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -518,7 +518,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -566,7 +566,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>
@@ -605,7 +605,7 @@
    
   
 ## Examples  
- For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](http://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
+ For an example of a session-state store provider implementation, see [Implementing a Session-State Store Provider](https://msdn.microsoft.com/library/baadfec5-c881-468a-9681-7d8796b05a66).  
   
  ]]></format>
         </remarks>

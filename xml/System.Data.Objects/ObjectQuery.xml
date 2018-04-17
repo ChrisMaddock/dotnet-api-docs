@@ -31,7 +31,7 @@
       <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- <xref:System.Data.Objects.ObjectQuery> is the base class for queries against a conceptual model. <xref:System.Data.Objects.ObjectQuery> is provided to ensure that LINQ to Entities queries have the same functionality as queries executed using <xref:System.Data.Objects.ObjectQuery%601>. You must use <xref:System.Data.Objects.ObjectQuery%601> with a specified type to query a conceptual model. For more information, see [Object Queries](http://msdn.microsoft.com/library/0768033c-876f-471d-85d5-264884349276).  
+ <xref:System.Data.Objects.ObjectQuery> is the base class for queries against a conceptual model. <xref:System.Data.Objects.ObjectQuery> is provided to ensure that LINQ to Entities queries have the same functionality as queries executed using <xref:System.Data.Objects.ObjectQuery%601>. You must use <xref:System.Data.Objects.ObjectQuery%601> with a specified type to query a conceptual model. For more information, see [Object Queries](https://msdn.microsoft.com/library/0768033c-876f-471d-85d5-264884349276).  
   
  ]]></format>
     </remarks>
@@ -78,9 +78,9 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The context for the query includes the connection, cache, and metadata. For more information, see [Object Services Overview (Entity Framework)](http://msdn.microsoft.com/library/43014cf9-c9cb-4538-bfbb-197820b60038).  
+ The context for the query includes the connection, cache, and metadata. For more information, see [Object Services Overview (Entity Framework)](https://msdn.microsoft.com/library/43014cf9-c9cb-4538-bfbb-197820b60038).  
   
- The connection property is mutable and must be set before a query can be executed. For more information, see [Managing Connections in Object Services (Entity Framework)](http://msdn.microsoft.com/library/a1df87ef-6441-417d-b264-bb58360e5d67).  
+ The connection property is mutable and must be set before a query can be executed. For more information, see [Managing Connections in Object Services (Entity Framework)](https://msdn.microsoft.com/library/a1df87ef-6441-417d-b264-bb58360e5d67).  
   
    
   
@@ -145,7 +145,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The default merge option for object queries is <xref:System.Data.Objects.MergeOption.AppendOnly>. For more information, see [Identity Resolution, State Management, and Change Tracking](http://msdn.microsoft.com/library/3bd49311-0e72-4ea4-8355-38fe57036ba0).  
+ The default merge option for object queries is <xref:System.Data.Objects.MergeOption.AppendOnly>. For more information, see [Identity Resolution, State Management, and Change Tracking](https://msdn.microsoft.com/library/3bd49311-0e72-4ea4-8355-38fe57036ba0).  
   
  Call the <xref:System.Data.Objects.ObjectQuery%601.Execute%2A> method on <xref:System.Data.Objects.ObjectQuery%601> for typed object queries.  
   
@@ -205,7 +205,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- If no <xref:System.Data.Objects.MergeOption> is specified, the default value is <xref:System.Data.Objects.MergeOption.AppendOnly>. For more information, see [Identity Resolution, State Management, and Change Tracking](http://msdn.microsoft.com/library/3bd49311-0e72-4ea4-8355-38fe57036ba0).  
+ If no <xref:System.Data.Objects.MergeOption> is specified, the default value is <xref:System.Data.Objects.MergeOption.AppendOnly>. For more information, see [Identity Resolution, State Management, and Change Tracking](https://msdn.microsoft.com/library/3bd49311-0e72-4ea4-8355-38fe57036ba0).  
   
  ]]></format>
         </remarks>
@@ -232,7 +232,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- Use the returned <xref:System.Data.Objects.ObjectParameterCollection> to specify parameters that are passed to the query. For more information, see [Query Builder Methods](http://msdn.microsoft.com/library/05685434-05e6-41c2-8d5e-8933b88a40b0).  
+ Use the returned <xref:System.Data.Objects.ObjectParameterCollection> to specify parameters that are passed to the query. For more information, see [Query Builder Methods](https://msdn.microsoft.com/library/05685434-05e6-41c2-8d5e-8933b88a40b0).  
   
    
   
@@ -334,7 +334,7 @@
 ## Remarks  
  This member is an explicit interface member implementation. It can be used only when the <xref:System.Data.Objects.ObjectQuery%601> instance is cast to an <xref:System.ComponentModel.IListSource> interface.  
   
- This method enables data binding to the result of the query. It is called by the control bound to the collection. For more information, see [Binding Objects to Controls](http://msdn.microsoft.com/library/2fd34855-929b-4303-a91e-4bb69d958f2b).  
+ This method enables data binding to the result of the query. It is called by the control bound to the collection. For more information, see [Binding Objects to Controls](https://msdn.microsoft.com/library/2fd34855-929b-4303-a91e-4bb69d958f2b).  
   
  ]]></format>
         </remarks>

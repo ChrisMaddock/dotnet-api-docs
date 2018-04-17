@@ -46,7 +46,7 @@
   
  ]]></format>
     </remarks>
-    <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; [NIB: Named Permission Sets](http://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
+    <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; [NIB: Named Permission Sets](https://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
     <altmember cref="T:System.CodeDom.Compiler.CompilerParameters" />
     <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
   </Docs>
@@ -143,7 +143,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](http://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
+        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](https://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
         <altmember cref="T:System.CodeDom.Compiler.CompilerParameters" />
       </Docs>
     </Member>
@@ -281,7 +281,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](http://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
+        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](https://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
         <altmember cref="M:System.Object.Equals(System.Object)" />
         <altmember cref="P:System.CodeDom.Compiler.CompilerInfo.CodeDomProviderType" />
         <altmember cref="T:System.CodeDom.Compiler.CompilerParameters" />
@@ -326,7 +326,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](http://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
+        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](https://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
         <altmember cref="M:System.CodeDom.Compiler.CodeDomProvider.IsDefinedExtension(System.String)" />
       </Docs>
     </Member>
@@ -371,7 +371,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](http://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
+        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](https://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
         <altmember cref="M:System.Object.GetHashCode" />
         <altmember cref="T:System.Collections.Hashtable" />
         <altmember cref="M:System.CodeDom.Compiler.CompilerInfo.Equals(System.Object)" />
@@ -416,7 +416,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](http://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
+        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](https://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
         <altmember cref="M:System.CodeDom.Compiler.CodeDomProvider.IsDefinedLanguage(System.String)" />
       </Docs>
     </Member>
@@ -459,7 +459,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](http://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
+        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling members of <see cref="T:System.CodeDom.Compiler.CompilerInfo" />. Demand value: <see cref="F:System.Security.Permissions.SecurityAction.LinkDemand" />; Associated <see cref="T:System.Security.Permissions.PermissionState" /> enumeration value: <see langword="Unrestricted" />; [NIB: Named Permission Sets](https://msdn.microsoft.com/library/08250d67-c99d-4ab0-8d2b-b0e12019f6e3): <see langword="FullTrust" />.</permission>
         <altmember cref="P:System.CodeDom.Compiler.CompilerInfo.CodeDomProviderType" />
         <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
       </Docs>

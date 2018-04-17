@@ -467,7 +467,7 @@ The scope of the <xref:System.Object.Finalize%2A?displayProperty=nameWithType> m
 > [!NOTE]
 >  The C# compiler does not allow you to override the <xref:System.Object.Finalize%2A> method. Instead, you provide a finalizer by implementing a [destructor](~/docs/csharp/programming-guide/classes-and-structs/destructors.md) for your class. A C# destructor automatically calls the destructor of its base class.  
 >   
->  Visual C++ also provides its own syntax for implementing the <xref:System.Object.Finalize%2A> method. For more information, see the "Destructors and finalizers" section of [How to: Define and Consume Classes and Structs (C++/CLI)](http://msdn.microsoft.com/library/1c03cb0d-1459-4b5e-af65-97d6b3094fd7).  
+>  Visual C++ also provides its own syntax for implementing the <xref:System.Object.Finalize%2A> method. For more information, see the "Destructors and finalizers" section of [How to: Define and Consume Classes and Structs (C++/CLI)](https://msdn.microsoft.com/library/1c03cb0d-1459-4b5e-af65-97d6b3094fd7).  
   
  Because garbage collection is non-deterministic, you do not know precisely when the garbage collector performs finalization. To release resources immediately, you can also choose to implement the [dispose pattern](~/docs/standard/design-guidelines/dispose-pattern.md) and the <xref:System.IDisposable> interface. The <xref:System.IDisposable.Dispose%2A?displayProperty=nameWithType> implementation can be called by consumers of your class to free unmanaged resources, and you can use the <xref:System.Object.Finalize%2A> method to free unmanaged resources in the event that the <xref:System.IDisposable.Dispose%2A> method is not called.  
   
@@ -491,7 +491,7 @@ The scope of the <xref:System.Object.Finalize%2A?displayProperty=nameWithType> m
   
 -   <xref:Microsoft.Win32.SafeHandles.SafeWaitHandle> is a wrapper class for a wait handle.  
   
- The following example uses the [dispose pattern](~/docs/standard/design-guidelines/dispose-pattern.md) with safe handles instead of overriding the <xref:System.Object.Finalize%2A> method. It defines a `FileAssociation` class that wraps registry information about the application that handles files with a particular file extension. The two registry handles returned as `out` parameters by Windows [RegOpenKeyEx](http://msdn.microsoft.com/library/windows/desktop/ms724897.aspx) function calls are passed to the <xref:Microsoft.Win32.SafeHandles.SafeRegistryHandle> constructor. The type's protected `Dispose` method then calls the `SafeRegistryHandle.Dispose` method  to free these two handles.  
+ The following example uses the [dispose pattern](~/docs/standard/design-guidelines/dispose-pattern.md) with safe handles instead of overriding the <xref:System.Object.Finalize%2A> method. It defines a `FileAssociation` class that wraps registry information about the application that handles files with a particular file extension. The two registry handles returned as `out` parameters by Windows [RegOpenKeyEx](https://msdn.microsoft.com/library/windows/desktop/ms724897.aspx) function calls are passed to the <xref:Microsoft.Win32.SafeHandles.SafeRegistryHandle> constructor. The type's protected `Dispose` method then calls the `SafeRegistryHandle.Dispose` method  to free these two handles.  
   
  [!code-csharp[System.Object.Finalize#2](~/samples/snippets/csharp/VS_Snippets_CLR_System/system.object.finalize/cs/finalize_safe.cs#2)]
  [!code-vb[System.Object.Finalize#2](~/samples/snippets/visualbasic/VS_Snippets_CLR_System/system.object.finalize/vb/finalize_safe.vb#2)]  
@@ -553,7 +553,7 @@ The scope of the <xref:System.Object.Finalize%2A?displayProperty=nameWithType> m
  A hash code is a numeric value that is used to insert and identify an object in a hash-based collection such as the <xref:System.Collections.Generic.Dictionary%602> class, the <xref:System.Collections.Hashtable> class, or a type derived from the <xref:System.Collections.DictionaryBase> class. The <xref:System.Object.GetHashCode%2A> method provides this hash code for algorithms that need quick checks of object equality.  
   
 > [!NOTE]
->  For information about how hash codes are used in hash tables and for some additional hash code algorithms, see the [Hash Function](http://en.wikipedia.org/wiki/Hash_function) entry in Wikipedia.  
+>  For information about how hash codes are used in hash tables and for some additional hash code algorithms, see the [Hash Function](https://en.wikipedia.org/wiki/Hash_function) entry in Wikipedia.  
   
  Two objects that are equal return hash codes that are equal. However, the reverse is not true: equal hash codes do not imply object equality, because different (unequal) objects can have identical hash codes. Furthermore, the .NET Framework does not guarantee the default implementation of the <xref:System.Object.GetHashCode%2A> method, and the value this method returns may differ between .NET Framework versions and platforms, such as 32-bit and 64-bit platforms. For these reasons, do not use the default implementation of this method as a unique object identifier for hashing purposes. Two consequences follow from this:  
   

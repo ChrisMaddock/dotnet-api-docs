@@ -20,7 +20,7 @@
 ## Remarks  
  You compile <xref:System.Speech.Recognition.SrgsGrammar.SrgsDocument> objects and XML-format grammars to a binary format to optimize them for loading and consumption by a speech recognition engine. Compiling a speech recognition grammar using one of the <xref:System.Speech.Recognition.SrgsGrammar.SrgsGrammarCompiler.Compile%2A> methods can reduce the amount of time required to construct a <xref:System.Speech.Recognition.Grammar> object from an <xref:System.Speech.Recognition.SrgsGrammar.SrgsDocument> or an XML-format grammar.  
   
- For more information, see [Compile SRGS Grammars](http://msdn.microsoft.com/library/dbdd9e2b-62c7-4938-be84-3dcc77ad454a).  
+ For more information, see [Compile SRGS Grammars](https://msdn.microsoft.com/library/dbdd9e2b-62c7-4938-be84-3dcc77ad454a).  
   
  ]]></format>
     </remarks>
@@ -61,7 +61,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information, see [Compile SRGS Grammars](http://msdn.microsoft.com/library/dbdd9e2b-62c7-4938-be84-3dcc77ad454a).  
+ For more information, see [Compile SRGS Grammars](https://msdn.microsoft.com/library/dbdd9e2b-62c7-4938-be84-3dcc77ad454a).  
   
  ]]></format>
         </remarks>
@@ -97,11 +97,11 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The XML-format grammar file must conform to the [Speech Recognition Grammar Specification (SRGS) Version 1.0](http://www.w3.org/TR/speech-grammar/).  
+ The XML-format grammar file must conform to the [Speech Recognition Grammar Specification (SRGS) Version 1.0](https://www.w3.org/TR/speech-grammar/).  
   
  When accessing files, a security check is performed when the file is created or opened. The security check is typically not done again unless the file is closed and reopened.  
   
- For more information, see [Compile SRGS Grammars](http://msdn.microsoft.com/library/dbdd9e2b-62c7-4938-be84-3dcc77ad454a).  
+ For more information, see [Compile SRGS Grammars](https://msdn.microsoft.com/library/dbdd9e2b-62c7-4938-be84-3dcc77ad454a).  
   
  ]]></format>
         </remarks>
@@ -139,9 +139,9 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The XML-format grammar file referenced by the <xref:System.Xml.XmlReader> must conform to the [Speech Recognition Grammar Specification (SRGS) Version 1.0](http://www.w3.org/TR/speech-grammar/).  
+ The XML-format grammar file referenced by the <xref:System.Xml.XmlReader> must conform to the [Speech Recognition Grammar Specification (SRGS) Version 1.0](https://www.w3.org/TR/speech-grammar/).  
   
- For more information, see [Compile SRGS Grammars](http://msdn.microsoft.com/library/dbdd9e2b-62c7-4938-be84-3dcc77ad454a).  
+ For more information, see [Compile SRGS Grammars](https://msdn.microsoft.com/library/dbdd9e2b-62c7-4938-be84-3dcc77ad454a).  
   
  ]]></format>
         </remarks>

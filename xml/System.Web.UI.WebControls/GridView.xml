@@ -100,7 +100,7 @@
   
 -   Customizable appearance through themes and styles.  
   
--   To learn about the other data-bound controls that are available in ASP.NET, see [Data-Bound Web Server Controls](http://msdn.microsoft.com/library/f9cf026e-d8b8-49f8-a3c4-64de2edbbb96).  
+-   To learn about the other data-bound controls that are available in ASP.NET, see [Data-Bound Web Server Controls](https://msdn.microsoft.com/library/f9cf026e-d8b8-49f8-a3c4-64de2edbbb96).  
   
 > [!NOTE]
 >  If you are familiar with the <xref:System.Web.UI.WebControls.DataGrid> control from the .NET Framework version 1.0, the <xref:System.Web.UI.WebControls.GridView> control is the successor to the <xref:System.Web.UI.WebControls.DataGrid> control.  
@@ -136,10 +136,10 @@
   
 -   To bind to a data source that implements the <xref:System.Collections.IEnumerable?displayProperty=nameWithType> interface, programmatically set the <xref:System.Web.UI.WebControls.BaseDataBoundControl.DataSource%2A> property of the <xref:System.Web.UI.WebControls.GridView> control to the data source and then call the <xref:System.Web.UI.WebControls.BaseDataBoundControl.DataBind%2A> method. When using this method, the <xref:System.Web.UI.WebControls.GridView> control does not provide built-in sort, update, delete, and paging functionality. You need to provide this functionality by using the appropriate event.  
   
- For more information about data binding, see [ASP.NET Data Access Content Map](http://msdn.microsoft.com/library/f9219396-a0fa-481f-894d-e3d9c67d64f2).  
+ For more information about data binding, see [ASP.NET Data Access Content Map](https://msdn.microsoft.com/library/f9219396-a0fa-481f-894d-e3d9c67d64f2).  
   
 > [!NOTE]
->  This control can be used to display user input, which might include malicious client script. Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application. Whenever possible, it is strongly recommended that values are HTML-encoded before they are displayed in this control (the <xref:System.Web.UI.WebControls.BoundField> class HTML-encodes values by default). ASP.NET provides an input request validation feature to block script and HTML in user input. Validation server controls are also provided to assess user input. For more information, see [Introduction to the Validation Controls](http://msdn.microsoft.com/library/3c0e7514-cff2-4bed-936d-ee3f7b740190).  
+>  This control can be used to display user input, which might include malicious client script. Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application. Whenever possible, it is strongly recommended that values are HTML-encoded before they are displayed in this control (the <xref:System.Web.UI.WebControls.BoundField> class HTML-encodes values by default). ASP.NET provides an input request validation feature to block script and HTML in user input. Validation server controls are also provided to assess user input. For more information, see [Introduction to the Validation Controls](https://msdn.microsoft.com/library/3c0e7514-cff2-4bed-936d-ee3f7b740190).  
   
 <a name="data_operations"></a>   
 ## Data Operations  
@@ -210,7 +210,7 @@
   
 <a name="accessibility"></a>   
 ## Accessibility  
- For information about how to configure this control so that it generates markup that conforms to accessibility standards, see [Accessibility in Visual Studio and ASP.NET](http://msdn.microsoft.com/library/7e3ce9c4-6b7d-4fb1-94b5-72cf2a44fe13) and [ASP.NET Controls and Accessibility](http://msdn.microsoft.com/library/847a37e3-ce20-41da-b0d3-7dfb0fdae9a0).  
+ For information about how to configure this control so that it generates markup that conforms to accessibility standards, see [Accessibility in Visual Studio and ASP.NET](https://msdn.microsoft.com/library/7e3ce9c4-6b7d-4fb1-94b5-72cf2a44fe13) and [ASP.NET Controls and Accessibility](https://msdn.microsoft.com/library/847a37e3-ce20-41da-b0d3-7dfb0fdae9a0).  
   
 <a name="declarative_syntax"></a>   
 ## Declarative Syntax  
@@ -1254,7 +1254,7 @@
 ## Remarks  
  Use the <xref:System.Web.UI.WebControls.GridView.Caption%2A> property to specify the text to render in an HTML caption element in a <xref:System.Web.UI.WebControls.GridView> control. The text that you specify provides assistive technology devices with a description of the table that can be used to make the control more accessible. You can also specify the position at which to render the HTML caption element by using the <xref:System.Web.UI.WebControls.GridView.CaptionAlign%2A> property.  
   
- The value of this property, when set, can be saved automatically to a resource file by using a designer tool. For more information, see <xref:System.ComponentModel.LocalizableAttribute> and [Globalization and Localization](http://msdn.microsoft.com/library/8ef3838e-9d05-4236-9dd0-ceecff9df80d).  
+ The value of this property, when set, can be saved automatically to a resource file by using a designer tool. For more information, see <xref:System.ComponentModel.LocalizableAttribute> and [Globalization and Localization](https://msdn.microsoft.com/library/8ef3838e-9d05-4236-9dd0-ceecff9df80d).  
   
    
   
@@ -1966,7 +1966,7 @@
 ## Examples  
  The following example demonstrates how to use the <xref:System.Web.UI.WebControls.GridView.DataKeyNames%2A> property to specify the key field of the data source. In the example, the `DataKeyNames` attribute of the `GridView` element in markup specifies two key fields by using a comma to separate the names. To run this example, create a Web site that has the following:  
   
--   A connection to the AdventureWorksLT sample database and a connection string that is named `AdventureWorksLTConnectionString`. For information about how to set up the AdventureWorksLT sample database, see [How to: Set Up an AdventureWorksLT Sample Database for ASP.NET Development](http://msdn.microsoft.com/library/2baad633-9d63-49cc-a6b2-917cafd35356).  
+-   A connection to the AdventureWorksLT sample database and a connection string that is named `AdventureWorksLTConnectionString`. For information about how to set up the AdventureWorksLT sample database, see [How to: Set Up an AdventureWorksLT Sample Database for ASP.NET Development](https://msdn.microsoft.com/library/2baad633-9d63-49cc-a6b2-917cafd35356).  
   
 -   A LINQ-to-SQL data context class that is named `AdventureWorksLTDataClassesDataContext`. The data context must have a class for the SalesOrderDetails table. For information about how to create LINQ-to-SQL classes, see [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655).  
   
@@ -2340,7 +2340,7 @@
   
  To specify a custom template for the empty data row, first place `<EmptyDataTemplate>` tags between the opening and closing tags of the <xref:System.Web.UI.WebControls.GridView> control. You can then list the contents of the template between the opening and closing `<EmptyDataTemplate>` tags. To control the style of the empty data row, use the <xref:System.Web.UI.WebControls.GridView.EmptyDataRowStyle%2A> property. Alternatively, you can use the built-in UI for the empty data row by setting the <xref:System.Web.UI.WebControls.GridView.EmptyDataText%2A> property instead of this property.  
   
- For information about how to programmatically access controls that you declare in an empty data template, see [How to: Access Server Controls by ID](http://msdn.microsoft.com/library/59964ef8-72ef-4159-9f1a-5b230ff46fb3).  
+ For information about how to programmatically access controls that you declare in an empty data template, see [How to: Access Server Controls by ID](https://msdn.microsoft.com/library/59964ef8-72ef-4159-9f1a-5b230ff46fb3).  
   
 > [!NOTE]
 >  If both the <xref:System.Web.UI.WebControls.GridView.EmptyDataText%2A> and <xref:System.Web.UI.WebControls.GridView.EmptyDataTemplate%2A> properties are set, the <xref:System.Web.UI.WebControls.GridView.EmptyDataTemplate%2A> property takes precedence.  
@@ -2395,7 +2395,7 @@
 > [!NOTE]
 >  If both the <xref:System.Web.UI.WebControls.GridView.EmptyDataText%2A> and <xref:System.Web.UI.WebControls.GridView.EmptyDataTemplate%2A> properties are set, the <xref:System.Web.UI.WebControls.GridView.EmptyDataTemplate%2A> property takes precedence.  
   
- The value of this property, when set, can be saved automatically to a resource file by using a designer tool. For more information, see <xref:System.ComponentModel.LocalizableAttribute> and [Globalization and Localization](http://msdn.microsoft.com/library/8ef3838e-9d05-4236-9dd0-ceecff9df80d).  
+ The value of this property, when set, can be saved automatically to a resource file by using a designer tool. For more information, see <xref:System.ComponentModel.LocalizableAttribute> and [Globalization and Localization](https://msdn.microsoft.com/library/8ef3838e-9d05-4236-9dd0-ceecff9df80d).  
   
    
   
@@ -3165,7 +3165,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This method is used primarily by the .NET Framework infrastructure and is not intended to be used directly from your code. However, control developers can override this method to specify how a custom server control restores its view state. For more information, see [ASP.NET State Management Overview](http://msdn.microsoft.com/library/0218d965-5d30-445b-b6a6-8870e70e63ce).  
+ This method is used primarily by the .NET Framework infrastructure and is not intended to be used directly from your code. However, control developers can override this method to specify how a custom server control restores its view state. For more information, see [ASP.NET State Management Overview](https://msdn.microsoft.com/library/0218d965-5d30-445b-b6a6-8870e70e63ce).  
   
  ]]></format>
         </remarks>
@@ -4194,7 +4194,7 @@
   
  To determine the index of the page selected by the user, use the <xref:System.Web.UI.WebControls.GridView.PageIndex%2A> property of the <xref:System.Web.UI.WebControls.GridView> control.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -4239,7 +4239,7 @@
   
  A <xref:System.Web.UI.WebControls.GridViewPageEventArgs> object is passed to the event-handling method, which enables you to determine the index of the page selected by the user and to indicate that the paging operation should be canceled. To cancel the paging operation, set the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property of the <xref:System.Web.UI.WebControls.GridViewPageEventArgs> object to `true`.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -4709,7 +4709,7 @@
   
  A <xref:System.Web.UI.WebControls.GridViewCancelEditEventArgs> object is passed to the event-handling method, which enables you to determine the index of the current row and to indicate that the cancel operation should be stopped. To stop the cancel operation, set the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property of the <xref:System.Web.UI.WebControls.GridViewCancelEditEventArgs> object to `true`.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -4778,7 +4778,7 @@
 > [!NOTE]
 >  To determine the index of the row that raised the event, use the <xref:System.Web.UI.WebControls.CommandEventArgs.CommandArgument%2A> property of the event argument that is passed to the event. The <xref:System.Web.UI.WebControls.ButtonField> class automatically populates the <xref:System.Web.UI.WebControls.CommandEventArgs.CommandArgument%2A> property with the appropriate index value. For other command buttons, you must manually set the <xref:System.Web.UI.WebControls.Button.CommandArgument%2A> property of the command button. For example, you can set the <xref:System.Web.UI.WebControls.Button.CommandArgument%2A> to `<%# Container.DataItemIndex %>` when the <xref:System.Web.UI.WebControls.GridView> control has no paging enabled.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -4825,7 +4825,7 @@
   
  A <xref:System.Web.UI.WebControls.GridViewRowEventArgs> object is passed to the event-handling method, which enables you to access the properties of the row being created. To access a specific cell in the row, use the <xref:System.Web.UI.WebControls.TableRow.Cells%2A> property of the <xref:System.Web.UI.WebControls.GridViewRowEventArgs> object. You can determine which row type (header row, data row, and so on) is being created by using the <xref:System.Web.UI.WebControls.GridViewRow.RowType%2A> property.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -4867,7 +4867,7 @@
   
  A <xref:System.Web.UI.WebControls.GridViewRowEventArgs> object is passed to the event-handling method, which enables you to access the properties of the row being bound. To access a specific cell in the row, use the <xref:System.Web.UI.WebControls.TableRow.Cells%2A> property of the <xref:System.Web.UI.WebControls.GridViewRow> object contained in the <xref:System.Web.UI.WebControls.GridViewRowEventArgs.Row%2A> property of the <xref:System.Web.UI.WebControls.GridViewRowEventArgs> object. You can determine which row type (header row, data row, and so on) is being bound by using the <xref:System.Web.UI.WebControls.GridViewRow.RowType%2A> property.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -4911,7 +4911,7 @@
   
  A <xref:System.Web.UI.WebControls.GridViewDeletedEventArgs> object is passed to the event-handling method, which enables you to determine the number of rows affected and any exceptions that might have occurred. You can also indicate whether the exception was handled in the event-handling method by setting the <xref:System.Web.UI.WebControls.GridViewDeletedEventArgs.ExceptionHandled%2A> property of the <xref:System.Web.UI.WebControls.GridViewDeletedEventArgs> object.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -4958,7 +4958,7 @@
   
  A <xref:System.Web.UI.WebControls.GridViewDeleteEventArgs> object is passed to the event-handling method, which enables you to determine the index of the current row and to indicate that the delete operation should be canceled. To cancel the delete operation, set the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property of the <xref:System.Web.UI.WebControls.GridViewDeleteEventArgs> object to `true`. You can also manipulate the <xref:System.Web.UI.WebControls.GridViewDeleteEventArgs.Keys%2A> and <xref:System.Web.UI.WebControls.GridViewDeleteEventArgs.Values%2A> collections, if necessary, before the values are passed to the data source.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -4969,7 +4969,7 @@
   
  Rows are deleted from the CustomerAddress table instead of the Customer table in order to keep the example simple. The <xref:System.Web.UI.WebControls.GridView> control shows the result of joining three tables: Customer, Address, and CustomerAddress. When a CustomerAddress row is deleted, the corresponding <xref:System.Web.UI.WebControls.GridView> row disappears. Referential integrity constraints would make the code for an example that actually deletes rows from the Customer table more complex.  
   
- For information about how to set up the AdventureWorksLT database, see [How to: Set Up an AdventureWorksLT Sample Database for ASP.NET Development](http://msdn.microsoft.com/library/2baad633-9d63-49cc-a6b2-917cafd35356).  
+ For information about how to set up the AdventureWorksLT database, see [How to: Set Up an AdventureWorksLT Sample Database for ASP.NET Development](https://msdn.microsoft.com/library/2baad633-9d63-49cc-a6b2-917cafd35356).  
   
  [!code-aspx-csharp[GridViewRowDeleting#1](~/samples/snippets/csharp/VS_Snippets_WebNet/GridViewRowDeleting/CS/gridviewrowdeleting.aspx#1)]
  [!code-aspx-vb[GridViewRowDeleting#1](~/samples/snippets/visualbasic/VS_Snippets_WebNet/GridViewRowDeleting/VB/gridviewrowdeleting.aspx#1)]  
@@ -5007,7 +5007,7 @@
   
  A <xref:System.Web.UI.WebControls.GridViewEditEventArgs> object is passed to the event-handling method, which enables you to determine the index of the current row and to indicate that the edit operation should be canceled. To cancel the edit operation, set the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property of the <xref:System.Web.UI.WebControls.GridViewEditEventArgs> object to `true`.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -5221,7 +5221,7 @@
   
  A <xref:System.Web.UI.WebControls.GridViewUpdatedEventArgs> object is passed to the event-handling method, which enables you to determine the number of rows affected and any exceptions that might have occurred. You can also indicate whether the exception was handled in the event-handling method by setting the <xref:System.Web.UI.WebControls.GridViewUpdatedEventArgs.ExceptionHandled%2A> property of the <xref:System.Web.UI.WebControls.GridViewUpdatedEventArgs> object.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -5275,7 +5275,7 @@
 > [!NOTE]
 >  The <xref:System.Web.UI.WebControls.GridViewUpdateEventArgs.Keys%2A>, <xref:System.Web.UI.WebControls.GridViewUpdateEventArgs.OldValues%2A> and <xref:System.Web.UI.WebControls.GridViewUpdateEventArgs.NewValues%2A> collections are automatically populated only when the <xref:System.Web.UI.WebControls.GridView> control is bound to data by using the <xref:System.Web.UI.WebControls.BaseDataBoundControl.DataSourceID%2A> property.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -5485,7 +5485,7 @@
 ## Remarks  
  The <xref:System.Web.UI.WebControls.GridView.SelectedIndexChanged> event is raised when a row's Select button is clicked, but after the <xref:System.Web.UI.WebControls.GridView> control handles the select operation. This enables you to provide an event-handling method that performs a custom routine, such as updating a status label with the currently selected row, whenever this event occurs.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -5530,7 +5530,7 @@
   
  A <xref:System.Web.UI.WebControls.GridViewSelectEventArgs> object is passed to the event-handling method, which enables you to determine the index of the row selected by the user and to indicate that the selection operation should be canceled. To cancel the selection operation, set the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property of the <xref:System.Web.UI.WebControls.GridViewSelectEventArgs> object to `true`.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -6061,7 +6061,7 @@
 ## Remarks  
  The <xref:System.Web.UI.WebControls.GridView.Sorted> event is raised when the hyperlink to sort a column is clicked, but after the <xref:System.Web.UI.WebControls.GridView> control handles the sort operation. This enables you to provide an event-handling method that performs a custom routine, such as custom sorting, whenever this event occurs.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -6312,7 +6312,7 @@
   
  For information about how to programmatically initiate a sort operation, see the <xref:System.Web.UI.WebControls.GridView.Sort%2A> method.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -7107,7 +7107,7 @@
  Use the <xref:System.Web.UI.WebControls.GridView.UpdateRow%2A> method to programmatically update the record at the specified index in the data source. This method is commonly used when you need to update a record from outside of the <xref:System.Web.UI.WebControls.GridView> control, such as from a different control on the page.  
   
 > [!NOTE]
->  This method can be called only for the row that is currently in edit mode, or for a row that contains a two-way data-bound input control. For more information about two-way binding expressions, see [Binding to Databases](http://msdn.microsoft.com/library/ab7b2846-975b-4057-a948-45527497c742).  
+>  This method can be called only for the row that is currently in edit mode, or for a row that contains a two-way data-bound input control. For more information about two-way binding expressions, see [Binding to Databases](https://msdn.microsoft.com/library/ab7b2846-975b-4057-a948-45527497c742).  
   
  To specify whether page validation is performed before the update operation, use the `causesValidation` parameter. Calling this method also raises the <xref:System.Web.UI.WebControls.GridView.RowUpdated> and <xref:System.Web.UI.WebControls.GridView.RowUpdating> events.  
   

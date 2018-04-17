@@ -38,7 +38,7 @@
 ## Examples  
  The following example shows how to use the <xref:System.ComponentModel.DataAnnotations.UIHintAttribute> attribute to specify the name of a custom field template that will handle the display and editing of a data field.  
   
- For a complete example, see [How to: Customize Data Field Display in the Data Model](http://msdn.microsoft.com/library/33c2e908-bb52-4656-ba7a-ba55fb04beb2).  
+ For a complete example, see [How to: Customize Data Field Display in the Data Model](https://msdn.microsoft.com/library/33c2e908-bb52-4656-ba7a-ba55fb04beb2).  
   
  [!code-csharp[DynamicData.CustomFieldTemplate#5](~/samples/snippets/csharp/VS_Snippets_WebNet/DynamicData.CustomFieldTemplate/CS/Product.cs#5)]
  [!code-vb[DynamicData.CustomFieldTemplate#5](~/samples/snippets/visualbasic/VS_Snippets_WebNet/DynamicData.CustomFieldTemplate/VB/Products.vb#5)]  

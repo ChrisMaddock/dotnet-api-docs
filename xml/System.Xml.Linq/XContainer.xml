@@ -52,7 +52,7 @@
 ## Remarks  
  This method adds the new content after the existing content of the <xref:System.Xml.Linq.XContainer>.  
   
- For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](http://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
+ For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](https://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
   
  This method will raise the <xref:System.Xml.Linq.XObject.Changed> and the <xref:System.Xml.Linq.XObject.Changing> events.  
   
@@ -156,7 +156,7 @@ Console.WriteLine(xmlTree)
 ## Remarks  
  This method adds the new content after the existing content of the <xref:System.Xml.Linq.XContainer>.  
   
- For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](http://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
+ For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](https://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
   
  This method will raise the <xref:System.Xml.Linq.XObject.Changed> and the <xref:System.Xml.Linq.XObject.Changing> events.  
   
@@ -290,7 +290,7 @@ Console.WriteLine(xmlTree)
 ## Remarks  
  This method adds the new content after the existing content of the <xref:System.Xml.Linq.XContainer>.  
   
- For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](http://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
+ For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](https://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
   
  This method will raise the <xref:System.Xml.Linq.XObject.Changed> and the <xref:System.Xml.Linq.XObject.Changing> events.  
   
@@ -393,7 +393,7 @@ Console.WriteLine(xmlTree)
 ## Remarks  
  This method adds the new content before the existing content of the <xref:System.Xml.Linq.XContainer>.  
   
- For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](http://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
+ For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](https://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
   
  This method will raise the <xref:System.Xml.Linq.XObject.Changed> and the <xref:System.Xml.Linq.XObject.Changing> events.  
   
@@ -497,7 +497,7 @@ Console.WriteLine(xmlTree)
 ## Remarks  
  This method adds the new content before the existing content of the <xref:System.Xml.Linq.XContainer>.  
   
- For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](http://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
+ For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](https://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
   
  This method will raise the <xref:System.Xml.Linq.XObject.Changed> and the <xref:System.Xml.Linq.XObject.Changing> events.  
   
@@ -630,7 +630,7 @@ Console.WriteLine(xmlTree)
 ## Remarks  
  This method adds the new content before the existing content of the <xref:System.Xml.Linq.XContainer>.  
   
- For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](http://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
+ For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](https://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
   
  This method will raise the <xref:System.Xml.Linq.XObject.Changed> and the <xref:System.Xml.Linq.XObject.Changing> events.  
   
@@ -756,7 +756,7 @@ Console.WriteLine(xmlTree)
 ## Remarks  
  While serializing, namespace prefixes are inferred from the namespace attributes in the XML tree.  
   
- For more information, see [Working with XML Namespaces](http://msdn.microsoft.com/library/e3003209-3234-45be-a832-47feb7927430).  
+ For more information, see [Working with XML Namespaces](https://msdn.microsoft.com/library/e3003209-3234-45be-a832-47feb7927430).  
   
    
   
@@ -1129,7 +1129,7 @@ Next
 Child  
 ```  
   
- The following is the same example, but in this case the XML is in a namespace. For more information, see [Working with XML Namespaces](http://msdn.microsoft.com/library/e3003209-3234-45be-a832-47feb7927430).  
+ The following is the same example, but in this case the XML is in a namespace. For more information, see [Working with XML Namespaces](https://msdn.microsoft.com/library/e3003209-3234-45be-a832-47feb7927430).  
   
 ```csharp  
 // Attributes are not nodes, so will not be returned by DescendantNodes.  
@@ -1297,7 +1297,7 @@ Console.WriteLine(xmlTree)
 </Root>  
 ```  
   
- The following is the same example, but in this case the XML is in a namespace. For more information, see [Working with XML Namespaces](http://msdn.microsoft.com/library/e3003209-3234-45be-a832-47feb7927430).  
+ The following is the same example, but in this case the XML is in a namespace. For more information, see [Working with XML Namespaces](https://msdn.microsoft.com/library/e3003209-3234-45be-a832-47feb7927430).  
   
 ```csharp  
 XNamespace aw = "http://www.adventure-works.com";  
@@ -1480,7 +1480,7 @@ Next
 <Child3>3</Child3>  
 ```  
   
- The following is the same example, but in this case the XML is in a namespace. For more information, see [Working with XML Namespaces](http://msdn.microsoft.com/library/e3003209-3234-45be-a832-47feb7927430).  
+ The following is the same example, but in this case the XML is in a namespace. For more information, see [Working with XML Namespaces](https://msdn.microsoft.com/library/e3003209-3234-45be-a832-47feb7927430).  
   
 ```csharp  
 XNamespace aw = "http://www.adventure-works.com";  
@@ -1625,7 +1625,7 @@ Next
 <Type2>5</Type2>  
 ```  
   
- The following is the same example, but in this case the XML is in a namespace. For more information, see [Working with XML Namespaces](http://msdn.microsoft.com/library/e3003209-3234-45be-a832-47feb7927430).  
+ The following is the same example, but in this case the XML is in a namespace. For more information, see [Working with XML Namespaces](https://msdn.microsoft.com/library/e3003209-3234-45be-a832-47feb7927430).  
   
 ```csharp  
 XNamespace aw = "http://www.adventure-works.com";  
@@ -2099,7 +2099,7 @@ Console.WriteLine(xmltree)
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](http://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
+ For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](https://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
   
  This method will raise the <xref:System.Xml.Linq.XObject.Changed> and the <xref:System.Xml.Linq.XObject.Changing> events.  
   
@@ -2194,7 +2194,7 @@ Console.WriteLine(root)
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](http://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
+ For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](https://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
   
  This method will raise the <xref:System.Xml.Linq.XObject.Changed> and the <xref:System.Xml.Linq.XObject.Changing> events.  
   
@@ -2297,7 +2297,7 @@ Console.WriteLine(root)
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](http://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
+ For details about the valid content that can be passed to this function, see [Valid Content of XElement and XDocument Objects](https://msdn.microsoft.com/library/aee2d319-5c5f-4b99-9bb4-2f58232577ae).  
   
  This method will raise the <xref:System.Xml.Linq.XObject.Changed> and the <xref:System.Xml.Linq.XObject.Changing> events.  
   

@@ -284,7 +284,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
  ]]></format>
         </remarks>
@@ -514,7 +514,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -690,7 +690,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -734,7 +734,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This event is not relevant to this class. For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ This event is not relevant to this class. For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
  ]]></format>
         </remarks>
@@ -768,7 +768,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This event is not relevant to this class. For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ This event is not relevant to this class. For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
  ]]></format>
         </remarks>
@@ -1392,7 +1392,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -1428,7 +1428,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -1497,7 +1497,7 @@
 > [!IMPORTANT]
 >  By default, links are displayed as text and are not clickable. To make them clickable set the <xref:System.Windows.Forms.RichTextBox.DetectUrls%2A> property to `true`.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -2208,7 +2208,7 @@
 ## Remarks  
  You can create an event handler for this event in your applications to determine when the user has attempted to modify text that has been marked as protected in the control. The event handler can be used to notify the user that the text the user is attempting to modify is protected or to display a dialog box that enables the user to make appropriate changes to the text. For example, if the protected area is a date, you can display a dialog box that enables the user to choose a date which can then be applied to the text of the control.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -2909,7 +2909,7 @@
 ## Remarks  
  You can create an event handler for this event to determine when the user has changed text selection within the control. An event handler for this event can be used to keep text selected until the user has completed a task within the application.  
   
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
@@ -3564,7 +3564,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information about handling events, see [NIB: Consuming Events](http://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
+ For more information about handling events, see [NIB: Consuming Events](https://msdn.microsoft.com/library/01e4f1bc-e55e-413f-98c7-6588493e5f67).  
   
    
   
