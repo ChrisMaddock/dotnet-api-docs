@@ -813,7 +813,7 @@
 ## Remarks  
  The collection contains all the tables in the data model, which includes the tables that are not visible (are not part of Dynamic Data scaffolding).  
   
- [Run](http://go.microsoft.com/fwlink/?LinkId=120736&sref=System.Web.DynamicData.MetaModel&spage=TablesMenu.aspx) an online example of this feature.  
+ [Run](/aspnet/) an online example of this feature.  
   
    
   

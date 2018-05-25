@@ -206,7 +206,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- You implement this method to perform custom validation of request data. The base behavior of the <xref:System.Web.Util.RequestValidator.IsValidRequestString%28System.Web.HttpContext%2CSystem.String%2CSystem.Web.Util.RequestValidationSource%2CSystem.String%2CSystem.Int32%40%29> method is like the behavior that ASP.NET implements internally to check for dangerous strings in cross-site scripting validation. For more information, see [How To: Prevent Cross-Site Scripting in ASP.NET](http://go.microsoft.com/fwlink/?LinkID=178708).  
+ You implement this method to perform custom validation of request data. The base behavior of the <xref:System.Web.Util.RequestValidator.IsValidRequestString%28System.Web.HttpContext%2CSystem.String%2CSystem.Web.Util.RequestValidationSource%2CSystem.String%2CSystem.Int32%40%29> method is like the behavior that ASP.NET implements internally to check for dangerous strings in cross-site scripting validation. For more information, see [How To: Prevent Cross-Site Scripting in ASP.NET](/previous-versions/msp-n-p/ff649310(v=pandp.10)).  
   
  If custom validation logic detects an error, this method should return `false` and provide a value in `validationFailureIndex` to indicate the starting point of the text that caused the error. The value in `validationFailureIndex` must be 0 or a positive integer.  
   

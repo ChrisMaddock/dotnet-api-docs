@@ -609,7 +609,7 @@
  You can set this value in a configuration file by setting the `maxQueryStringLength` attribute of the `httpRuntime` element. For more information, see [httpRuntime Element (ASP.NET Settings Schema)](http://msdn.microsoft.com/library/e9b81350-8aaf-47cc-9843-5f7d0c59f369).  
   
 > [!NOTE]
->  There is also an IIS setting that controls query string length. See the `maxQueryString` attribute in [Request Limits \<requestLimits>](http://www.iis.net/ConfigReference/system.webServer/security/requestFiltering/requestLimits).  
+>  There is also an IIS setting that controls query string length. See the `maxQueryString` attribute in [Request Limits \<requestLimits>](/iis/configuration/system.webServer/security/requestFiltering/requestLimits/).  
   
  ]]></format>
         </remarks>

@@ -1968,7 +1968,7 @@
   
 -   A connection to the AdventureWorksLT sample database and a connection string that is named `AdventureWorksLTConnectionString`. For information about how to set up the AdventureWorksLT sample database, see [How to: Set Up an AdventureWorksLT Sample Database for ASP.NET Development](http://msdn.microsoft.com/library/2baad633-9d63-49cc-a6b2-917cafd35356).  
   
--   A LINQ-to-SQL data context class that is named `AdventureWorksLTDataClassesDataContext`. The data context must have a class for the SalesOrderDetails table. For information about how to create LINQ-to-SQL classes, see [LINQ to SQL](http://msdn.microsoft.com/library/73d13345-eece-471a-af40-4cc7a2f11655).  
+-   A LINQ-to-SQL data context class that is named `AdventureWorksLTDataClassesDataContext`. The data context must have a class for the SalesOrderDetails table. For information about how to create LINQ-to-SQL classes, see [LINQ to SQL](~/docs/framework/data/adonet/sql/linq/index.md).  
   
  [!code-aspx-csharp[GridViewEdit#1](~/samples/snippets/csharp/VS_Snippets_WebNet/GridViewEdit/CS/editorders.aspx#1)]
  [!code-aspx-vb[GridViewEdit#1](~/samples/snippets/visualbasic/VS_Snippets_WebNet/GridViewEdit/VB/editorders.aspx#1)]  

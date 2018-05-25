@@ -2716,7 +2716,7 @@ Response.RedirectToRoutePermanent("Product",
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The <xref:System.Web.HttpResponse.SubStatusCode%2A> property is only supported with the integrated pipeline mode in [!INCLUDE[iisver](~/includes/iisver-md.md)] and at least the .NET Framework version 3.0. When you set the <xref:System.Web.HttpResponse.SubStatusCode%2A> property, the status is logged on [!INCLUDE[iisver](~/includes/iisver-md.md)] if failed-request tracing is configured. Independent of whether tracing is configured, the code is never sent as part of the final response to the request. For more information, see [Troubleshooting Failed Requests Using Failed Request Tracing in IIS 7.0](http://www.iis.net/default.aspx?tabid=2&subtabid=25&i=969&p=1).  
+ The <xref:System.Web.HttpResponse.SubStatusCode%2A> property is only supported with the integrated pipeline mode in [!INCLUDE[iisver](~/includes/iisver-md.md)] and at least the .NET Framework version 3.0. When you set the <xref:System.Web.HttpResponse.SubStatusCode%2A> property, the status is logged on [!INCLUDE[iisver](~/includes/iisver-md.md)] if failed-request tracing is configured. Independent of whether tracing is configured, the code is never sent as part of the final response to the request. For more information, see [Troubleshooting Failed Requests Using Failed Request Tracing in IIS 7.0](/iis/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis).  
   
    
   
