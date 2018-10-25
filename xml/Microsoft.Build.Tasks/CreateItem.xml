@@ -18,7 +18,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Implements the <c>CreateItem</c> task. Use the <c>CreateItem</c> element in your project file to create and execute this task. For usage and parameter information, see [CreateItem Task](http://msdn.microsoft.com/library/c4311f38-979e-4324-b524-9e8c1cbdc41a).</summary>
+    <summary>Implements the <c>CreateItem</c> task. Use the <c>CreateItem</c> element in your project file to create and execute this task. For usage and parameter information, see <see href="https://docs.microsoft.com/visualstudio/msbuild/createitem-task">CreateItem Task</see>.</summary>
     <remarks>To be added.</remarks>
     <forInternalUseOnly />
   </Docs>
