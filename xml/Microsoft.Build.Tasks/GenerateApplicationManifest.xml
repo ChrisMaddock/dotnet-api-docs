@@ -18,7 +18,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Implements the <c>GenerateApplicationManifest</c> task. Use the <c>GenerateApplicationManifest</c> element in the project file to create and execute this task. For usage and parameter information, see [GenerateApplicationManifest Task](https://msdn.microsoft.com/library/a494102b-0cb2-4755-8e2a-d2c0f39fac1d).</summary>
+    <summary>Implements the <c>GenerateApplicationManifest</c> task. Use the <c>GenerateApplicationManifest</c> element in the project file to create and execute this task. For usage and parameter information, see <see href="https://docs.microsoft.com/visualstudio/msbuild/generateapplicationmanifest-task">GenerateApplicationManifest Task</see>.</summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   
